@@ -1,5 +1,7 @@
 # Restaurant Demand Forecasting (Demo)
 
+![CI](https://github.com/rudhrestam/restaurant-demand-forecasting/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A restaurant does not get to choose how busy Friday night is, but it does get to choose how many people are rostered and how much prep is done before the doors open. Both decisions need a number a few days ahead — not a shrug and last week's total. Prep too little and the kitchen runs out mid-service; prep too much and the difference goes in the bin. This project builds the forecast behind those decisions, tests it honestly against the way kitchens actually plan today, and turns it into a one-page outlook a manager can act on.
 
 > This is a personal portfolio project exploring demand forecasting for restaurant operations. It is built on 100% synthetic data with original code, and does not represent work done for any employer.
@@ -76,7 +78,7 @@ Prints the forecast report and saves a copy to `forecast_report.txt`.
 
 ## Tech stack
 
-Python · NumPy · pandas · scikit-learn (RandomForest, MAE/R² evaluation)
+Python 3.10+ · NumPy · pandas · scikit-learn (RandomForest, MAE/R² evaluation)
 
 ## Ideas for extension
 
